@@ -2240,41 +2240,43 @@
                   <!-- 시장 규모 -->
                   <div style="background:#fff6ee;border-left:4px solid var(--orange);padding:20px 24px;border-radius:3px;margin-bottom:24px;">
                     <p style="font-size:12px;font-weight:700;color:var(--orange);letter-spacing:.08em;margin-bottom:16px;">MARKET SIZE — 시장 규모와 관심도는 충분히 큽니다</p>
-                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;">
-                      <!-- 바차트 -->
-                      <div>
-                        <p style="font-size:11px;color:#888;margin-bottom:8px;text-align:right;">Source: 대한경제</p>
-                        <p style="font-size:12px;font-weight:600;color:#555;margin-bottom:10px;text-align:center;">국내 인테리어 시장 규모 (조원)</p>
-                        <svg width="100%" height="160" viewBox="0 0 200 160" style="overflow:visible;">
-                          <!-- 막대 -->
-                          <rect x="20"  y="116" width="44" height="44" fill="var(--orange)" opacity=".55" rx="2"/>
-                          <rect x="80"  y="83"  width="44" height="77" fill="var(--orange)" opacity=".75" rx="2"/>
-                          <rect x="140" y="40"  width="44" height="120" fill="var(--orange)" rx="2"/>
-                          <!-- 값 -->
-                          <text x="42"  y="110" font-size="11" fill="var(--orange)" font-weight="700" text-anchor="middle">24.5조</text>
-                          <text x="102" y="77"  font-size="11" fill="var(--orange)" font-weight="700" text-anchor="middle">41.5조</text>
-                          <text x="162" y="34"  font-size="11" fill="var(--orange)" font-weight="700" text-anchor="middle">60조+</text>
-                          <!-- x축 레이블 -->
-                          <text x="42"  y="175" font-size="10" fill="#999" text-anchor="middle">2019</text>
-                          <text x="102" y="175" font-size="10" fill="#999" text-anchor="middle">2020</text>
-                          <text x="162" y="175" font-size="10" fill="#999" text-anchor="middle">2021</text>
-                          <!-- 기준선 -->
-                          <line x1="0" y1="160" x2="200" y2="160" stroke="#e0e0e0" stroke-width="1"/>
-                        </svg>
+                    <!-- 바차트 전체 너비 -->
+                    <p style="font-size:12px;font-weight:600;color:#555;margin-bottom:10px;text-align:center;">국내 인테리어 시장 규모 (조원)</p>
+                    <svg width="100%" height="160" viewBox="0 0 300 160" style="overflow:visible;display:block;margin-bottom:4px;">
+                      <rect x="30"  y="116" width="60" height="44" fill="var(--orange)" opacity=".55" rx="2"/>
+                      <rect x="120" y="83"  width="60" height="77" fill="var(--orange)" opacity=".75" rx="2"/>
+                      <rect x="210" y="40"  width="60" height="120" fill="var(--orange)" rx="2"/>
+                      <text x="60"  y="110" font-size="12" fill="var(--orange)" font-weight="700" text-anchor="middle">24.5조</text>
+                      <text x="150" y="77"  font-size="12" fill="var(--orange)" font-weight="700" text-anchor="middle">41.5조</text>
+                      <text x="240" y="34"  font-size="12" fill="var(--orange)" font-weight="700" text-anchor="middle">60조+</text>
+                      <text x="60"  y="175" font-size="11" fill="#999" text-anchor="middle">2019</text>
+                      <text x="150" y="175" font-size="11" fill="#999" text-anchor="middle">2020</text>
+                      <text x="240" y="175" font-size="11" fill="#999" text-anchor="middle">2021</text>
+                      <line x1="0" y1="160" x2="300" y2="160" stroke="#e0e0e0" stroke-width="1"/>
+                    </svg>
+                    <p style="font-size:12px;color:#aaa;text-align:right;margin-bottom:16px;">추산치 기준</p>
+
+                    <!-- 차트 아래 설명 문장 -->
+                    <p style="font-size:14px;color:#444;line-height:1.9;margin-bottom:20px;padding:14px 18px;background:#fffaf5;border-radius:3px;">
+                      국내 인테리어·리모델링 시장은 2019년 <strong>24.5조원</strong>에서 2020년 <strong>41.5조원</strong>, 2021년 <strong>60조원 이상</strong>으로 확대된 것으로 추산된다.
+                    </p>
+
+                    <!-- 추가 수치 -->
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+                      <div style="padding:14px 16px;background:#fff;border:1px solid #ffd8b3;border-radius:3px;">
+                        <p style="font-size:22px;font-weight:900;color:var(--orange);margin-bottom:4px;">+129%</p>
+                        <p style="font-size:13px;color:#444;font-weight:600;margin-bottom:4px;">DIY 전문점 이용 건수</p>
+                        <p style="font-size:11px;color:#aaa;line-height:1.6;">신한카드 Trendis<br>2019 대비 2020년 1~9월</p>
                       </div>
-                      <!-- 텍스트 -->
-                      <div>
-                        <p style="font-size:13px;color:#444;line-height:1.9;">
-                          국내 인테리어·리모델링 시장은<br>
-                          2019년 <strong>24.5조원</strong>에서<br>
-                          2020년 <strong>41.5조원</strong>,<br>
-                          2021년 <strong>60조원 이상</strong>으로<br>
-                          확대된 것으로 추산된다.<br><br>
-                          DIY 전문점 이용 건수 <strong>+129%</strong><br>
-                          <span style="font-size:12px;color:#aaa;">신한카드 Trendis, 2019 대비 2020년 1~9월</span><br><br>
-                          온라인 가구 거래액 <strong>+42.7%</strong><br>
-                          <span style="font-size:12px;color:#aaa;">통계청, 2020년 4월 전년 동월 대비 (삼정KPMG 인용)</span>
-                        </p>
+                      <div style="padding:14px 16px;background:#fff;border:1px solid #ffd8b3;border-radius:3px;">
+                        <p style="font-size:22px;font-weight:900;color:var(--orange);margin-bottom:4px;">+42.7%</p>
+                        <p style="font-size:13px;color:#444;font-weight:600;margin-bottom:4px;">온라인 가구 거래액</p>
+                        <p style="font-size:11px;color:#aaa;line-height:1.6;">통계청 (삼정KPMG 인용)<br>2020년 4월 전년 동월 대비</p>
+                      </div>
+                      <div style="padding:14px 16px;background:#fff;border:1px solid #ffd8b3;border-radius:3px;">
+                        <p style="font-size:16px;font-weight:900;color:var(--orange);margin-bottom:4px;">CAGR 4.3%</p>
+                        <p style="font-size:13px;color:#444;font-weight:600;margin-bottom:4px;">글로벌 인테리어 시장</p>
+                        <p style="font-size:11px;color:#aaa;line-height:1.6;">Grand View Research<br>2024→2030, 1,379→1,757억 달러</p>
                       </div>
                     </div>
                     <p style="font-size:17px;color:#444;margin-top:16px;padding-top:16px;border-top:1px solid #ffe0c0;line-height:1.8;">인테리어 시장은 계속 성장하지만, 여전히 <strong>전문가의 영역</strong>으로 여겨져 스스로 결정하기 어렵다는 목소리가 컸습니다. 전문 지식이 부족하면 실패할까 두려워 아예 시도를 미루는 경우가 많았습니다.</p>
