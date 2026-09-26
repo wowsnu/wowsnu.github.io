@@ -604,32 +604,35 @@
 
         <article class="case">
           <div class="case-side">
-            <p class="case-label">02 · TWO-SIDED MATCHING</p>
+            <p class="case-label">02 · EXPLAINABLE AI MATCHING</p>
             <h3>FitConnect</h3>
-            <p class="case-thesis">키워드가 아니라, 사람과 조직이 맞는 이유를 구조화했습니다.</p>
+            <p class="case-thesis">서류에 없는 역량과 조직의 인재상을 인터뷰로 구조화해, 매칭의 근거를 만들었습니다.</p>
             <div class="process">
-              <div class="process-row"><b>ROLE</b><span>AI 서비스 기획 · 인터뷰 및 매칭 파이프라인 구현</span></div>
-              <div class="process-row"><b>SCOPE</b><span>인재와 기업을 잇는 양면형 채용 서비스</span></div>
+              <div class="process-row"><b>ROLE</b><span>AI 기능 기획 · AI 파이프라인 구현</span></div>
+              <div class="process-row"><b>TEAM</b><span>3인 팀 · AI 담당</span></div>
+              <div class="process-row"><b>TRACK</b><span>2025 DATA VENTURE · flex 과제</span></div>
             </div>
           </div>
           <div class="case-body">
-            <p class="case-summary">인재와 기업 양쪽에 구조화된 인터뷰를 진행하고, 답변과 프로필을 분석해 역량·업무 방식·성장 방향·조직 문화를 비교하는 AI 매칭 서비스를 설계했습니다.</p>
+            <p class="case-summary">기업은 서류만으로 지원자의 실제 역량을 검증하기 어렵고, 필요한 인재상도 구체화하지 못합니다. FitConnect는 인재와 기업을 각각 AI 인터뷰해 역량 카드와 공고 카드를 만들고, 여섯 가지 적합도 기준으로 비교해 추천 이유와 추가 검증 질문까지 제시하는 채용 플랫폼입니다.</p>
             <div class="process">
-              <div class="process-row"><b>INTERVIEW</b><span>일반·직무·상황 면접으로 양쪽의 요구와 특성을 구조화</span></div>
-              <div class="process-row"><b>ADAPT</b><span>이전 답변과 프로필을 바탕으로 후속 질문을 동적으로 생성</span></div>
-              <div class="process-row"><b>EXPLAIN</b><span>인재 카드와 채용공고 카드로 판단 근거를 사람이 읽을 수 있게 제공</span></div>
-              <div class="process-row"><b>MATCH</b><span>역할·역량·성장·커리어·비전·문화 6개 차원으로 매칭</span></div>
+              <div class="process-row"><b>PROBLEM</b><span>적합도 판단 근거의 부족과 불명확한 인재상이라는 기업의 채용 문제 정의</span></div>
+              <div class="process-row"><b>INTERVIEW</b><span>구조화·직무 적합성·문화 적합성 면접과 기업용 공고 인터뷰 설계</span></div>
+              <div class="process-row"><b>VALIDATE</b><span>Generator–Validator가 모호하거나 경력과 연결되지 않는 질문을 걸러 재생성</span></div>
+              <div class="process-row"><b>MATCH</b><span>인재와 공고를 여섯 개 적합도 축으로 임베딩하고 코사인 유사도로 추천</span></div>
+              <div class="process-row"><b>DECISION</b><span>매칭 근거·검증 포인트·추천 질문을 함께 제공해 채용 의사결정 지원</span></div>
             </div>
-            <a class="text-link" href="https://github.com/wowsnu/fitconnect-ai" target="_blank" rel="noopener">구현 저장소 보기</a>
+            <a class="text-link" href="https://github.com/wowsnu/fitconnect-ai" target="_blank" rel="noopener">AI 구현 저장소 보기</a>
+            <a class="text-link" href="https://fitconnect-frontend.vercel.app/" target="_blank" rel="noopener">배포 서비스 보기</a>
           </div>
         </article>
 
         <div class="matching-flow" aria-label="FitConnect 서비스 흐름">
-          <div class="flow-card"><b>INPUT</b><h4>양방향 인터뷰</h4><p>인재의 경험과 기업의 실제 요구를 구조화합니다.</p></div>
+          <div class="flow-card"><b>INPUT</b><h4>양방향 AI 인터뷰</h4><p>지원자는 역량과 경험을, 기업은 포지션 요구와 문화 기준을 답합니다.</p></div>
           <div class="flow-arrow">→</div>
-          <div class="flow-card"><b>AI PIPELINE</b><h4>분석·질문·검증</h4><p>동적 질문을 생성하고 조건을 검증해 필요한 정보를 보완합니다.</p></div>
+          <div class="flow-card"><b>AI PIPELINE</b><h4>질문 생성·검증</h4><p>답변과 프로필을 반영해 다음 질문을 만들고, Validator가 질문의 적합성을 점검합니다.</p></div>
           <div class="flow-arrow">→</div>
-          <div class="flow-card"><b>OUTPUT</b><h4>설명 가능한 매칭</h4><p>프로필과 JD, 여섯 차원의 적합도 근거를 제공합니다.</p></div>
+          <div class="flow-card"><b>OUTPUT</b><h4>설명 가능한 추천</h4><p>여섯 축의 적합도와 함께 매칭 근거·검증 포인트·후속 질문을 제시합니다.</p></div>
         </div>
       </div>
     </section>
